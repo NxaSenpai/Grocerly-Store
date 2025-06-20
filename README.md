@@ -1,6 +1,6 @@
 # 🛒 My Grocery Store
 
-Welcome to **My Grocery Store** – a local shop where everyone can buy daily essentials like vegetables, meat, and fresh fruits.
+Welcome to **Grocely** – a local shop where everyone can buy daily essentials like vegetables, meat, and fresh fruits.
 
 ## 🥦 What You Can Find
 
@@ -32,4 +32,4 @@ We’re located in the heart of the community. Come by anytime and enjoy shoppin
 
 ---
 
-**My Grocery Store** – Freshness, Quality, and Care Every Day.
+**Grocely** – Freshness, Quality, and Care Every Day.
