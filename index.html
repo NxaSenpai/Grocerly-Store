@@ -109,7 +109,7 @@
                 </div>
             </section>
     
-            <div class="relative z-10 mt-24 md:mt-10 lg:mt-30    px-4 md:px-8 lg:px-16 max-w-screen-2xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-8 lg:space-x-8 lg:space-y-0">
+            <div class="relative z-10 mt-24 md:mt-10 lg:mt-30 mb-10 px-4 md:px-8 lg:px-16 max-w-screen-2xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-8 lg:space-x-8 lg:space-y-0">
                 <div class="w-full lg:w-2/3 bg-[#DEF1BD] shadow-lg border border-white rounded-xl p-8 flex flex-col md:flex-row items-center justify-center md:justify-between space-y-6 md:space-x-8 md:space-y-0">
                     <div class="md:w-1/2 flex justify-center">
                         <img class="w-full max-w-xs md:max-w-sm" src="https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Fruit-PNG/Large_Red_Apples_PNG_Clipart.png?m=1629802319" alt="Fresh Fruit">
@@ -118,7 +118,7 @@
                         <p class="text-black text-xl md:text-2xl font-open-sans font-normal mb-2">SUMMER SALE</p>
                         <h2 class="text-black text-4xl md:text-5xl lg:text-6xl font-palanquin font-bold leading-tight mb-4">Fresh Fruit<br/>100%</h2>
                         <div class="px-4 py-2 bg-white rounded-full text-[#517907] text-2xl md:text-3xl lg:text-4xl font-palanquin font-bold mb-6">40%OFF</div>
-                        <button class="px-6 py-3 bg-white border border-black rounded-md text-black text-lg md:text-xl font-palanquin-dark font-normal flex items-center space-x-2 hover:bg-gray-100 transition-colors" onclick="window.location.href='fruitPage.html'">
+                        <button class="px-6 py-3 bg-white border border-black rounded-md text-black text-lg md:text-xl font-palanquin-dark font-normal flex items-center space-x-2 hover:bg-gray-100 transition-colors" onclick="window.location.href='groceryPage.html'">
                             <span>Shop Now</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -138,33 +138,42 @@
                         <h2 class="text-black text-3xl md:text-4xl font-inter font-bold mb-8">Top Category</h2>
                     </div>
             
-                    <div class="flex overflow-x-auto horizontal-scroll pb-4 -mx-2"> <button class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
-                            <div class="icon-fruits text-4xl mb-2"></div> <span>Fruits</span>
-                        </button>
-            
-                        <button class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
-                            <div class="icon-vegetable text-4xl mb-2"></div> <span>Vegetable</span>
-                        </button>
-            
-                        <button class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
-                            <div class="icon-meat text-4xl mb-2"></div> <span>Meat</span>
-                        </button>
-            
-                        <button class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
-                            <div class="icon-snacks text-4xl mb-2"></div> <span>Snacks</span>
-                        </button>
-            
-                        <button class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
-                            <div class="icon-milk text-4xl mb-2"></div> <span>Milk</span>
-                        </button>
-            
-                        <button class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
-                            <div class="text-4xl mb-2">🍞</div> <span>Bakery</span>
-                        </button>
-                        <button class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
-                            <div class="text-4xl mb-2">🌶️</div> <span>Spices</span>
-                        </button>
-                    </div>
+                    <div class="flex overflow-x-auto horizontal-scroll pb-4 -mx-2">
+                        <a href="groceryPage.html?category=fruits" class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
+                          <div class="icon-fruits text-4xl mb-2"></div>
+                          <span>Fruits</span>
+                        </a>
+                      
+                        <a href="groceryPage.html?category=vegetable" class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
+                          <div class="icon-vegetable text-4xl mb-2"></div>
+                          <span>Vegetable</span>
+                        </a>
+                      
+                        <a href="groceryPage.html?category=meats" class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
+                          <div class="icon-meat text-4xl mb-2"></div>
+                          <span>Meat</span>
+                        </a>
+                      
+                        <a href="groceryPage.html?category=snacks" class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
+                          <div class="icon-snacks text-4xl mb-2"></div>
+                          <span>Snacks</span>
+                        </a>
+                      
+                        <a href="groceryPage.html?category=milk" class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
+                          <div class="icon-milk text-4xl mb-2"></div>
+                          <span>Milk</span>
+                        </a>
+                      
+                        <a href="groceryPage.html?category=bakery" class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
+                          <div class="text-4xl mb-2">🍞</div>
+                          <span>Bakery</span>
+                        </a>
+                      
+                        <a href="groceryPage.html?category=spices" class="flex-shrink-0 flex flex-col items-center justify-center p-4 m-2 w-32 h-32 bg-yellow-50 rounded-lg dotted-border-black text-gray-900 text-sm hover:shadow-md transition-shadow duration-200">
+                          <div class="text-4xl mb-2">🌶️</div>
+                          <span>Spices</span>
+                        </a>
+                      </div>                      
                 </section>
             </div>
     
