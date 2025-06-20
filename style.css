@@ -1,0 +1,61 @@
+.dotted-border-black {
+    border: 1px dotted black;
+}
+/* Basic styles for icons - replace with actual SVG/font icons in a real project */
+.icon-placeholder {
+    width: 48px; /* Example size */
+    height: 48px; /* Example size */
+    background-color: #e0e0e0; /* A neutral color for placeholder */
+    border-radius: 50%; /* Make it circular if needed for some icons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Larger font for simple text icons */
+}
+.icon-fruits::before { content: "🍉"; }
+.icon-vegetable::before { content: "🥬"; }
+.icon-meat::before { content: "🥩"; }
+.icon-snacks::before { content: "🍟"; }
+.icon-milk::before { content: "🥛"; }
+
+/* Custom scrollbar for webkit browsers */
+.horizontal-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.font-palanquin {
+    font-family: 'Palanquin', sans-serif;
+}
+.font-palanquin-dark {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+.font-harmattan {
+    font-family: 'Harmattan', cursive;
+}
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+/* Ensure the main container takes full width and minimum height */
+body {
+    font-family: 'Inter', sans-serif; /* Default font */
+}
