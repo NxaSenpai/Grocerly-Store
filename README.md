@@ -1,4 +1,4 @@
-# 🛒 My Grocery Store
+# 🛒 Grocely
 
 Welcome to **Grocely** – a local shop where everyone can buy daily essentials like vegetables, meat, and fresh fruits.
 
