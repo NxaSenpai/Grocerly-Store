@@ -1,6 +1,6 @@
 # 🛒 Grocely
 
-Welcome to **Grocely** – a local shop where everyone can buy daily essentials like vegetables, meat, and fresh fruits.
+Welcome to **Grocerly** – a local shop where everyone can buy daily essentials like vegetables, meat, and fresh fruits.
 
 ## 🥦 What You Can Find
 
