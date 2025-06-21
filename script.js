@@ -58,7 +58,7 @@ function addToCartFromProductPage(buttonElement) {
 
 
     const CART_STORAGE_KEY = 'grocerlyCart';
-    const SHIPPING_COST = 2.00;
+    const SHIPPING_COST = 1.99;
     
     let cart = [];
 
