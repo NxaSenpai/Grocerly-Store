@@ -189,8 +189,9 @@ function addToCartFromProductPage(buttonElement) {
             subtotal += item.price * item.quantity;
         });
     
-        const shipping = cart.length > 0 ? SHIPPING_COST : 0;
+        const shipping = (subtotal > 50) ? 0 : (cart.length > 0 ? SHIPPING_COST : 0);
         const total = subtotal + shipping;
+        
     
         subtotalEl.textContent = `$${subtotal.toFixed(2)}`;
         shippingEl.textContent = `$${shipping.toFixed(2)}`;
