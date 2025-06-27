@@ -1,6 +1,7 @@
 .dotted-border-black {
     border: 1px dotted black;
 }
+
 /* Basic styles for icons - replace with actual SVG/font icons in a real project */
 .icon-placeholder {
     width: 48px; /* Example size */
@@ -12,22 +13,25 @@
     align-items: center;
     font-size: 2rem; /* Larger font for simple text icons */
 }
+
 .icon-fruits::before { content: "🍉"; }
 .icon-vegetable::before { content: "🥬"; }
 .icon-meat::before { content: "🥩"; }
 .icon-snacks::before { content: "🍟"; }
 .icon-milk::before { content: "🥛"; }
-.font-harmattan { font-family: 'Harmattan', sans-serif; }
-    .font-palanquin { font-family: 'Palanquin', sans-serif; }
-    .font-palanquin-dark { font-family: 'Palanquin Dark', sans-serif; }
-    .font-open-sans { font-family: 'Open Sans', sans-serif; }
-    .font-inter { font-family: 'Inter', sans-serif; }
-    .font-montserrat { font-family: 'Montserrat', sans-serif; }
 
-    /* Custom gradient background to match original precise colors */
-    .custom-gradient-bg {
-      background: linear-gradient(180deg, #FCFCF7 6%, #F5EEAD 100%);
-    }
+/* Font family utility classes */
+.font-harmattan { font-family: 'Harmattan', sans-serif; }
+.font-palanquin { font-family: 'Palanquin', sans-serif; }
+.font-palanquin-dark { font-family: 'Palanquin Dark', sans-serif; }
+.font-open-sans { font-family: 'Open Sans', sans-serif; }
+.font-inter { font-family: 'Inter', sans-serif; }
+.font-montserrat { font-family: 'Montserrat', sans-serif; }
+
+/* Custom gradient background to match original precise colors */
+.custom-gradient-bg {
+    background: linear-gradient(180deg, #FCFCF7 6%, #F5EEAD 100%);
+}
 
 /* Custom scrollbar for webkit browsers */
 .horizontal-scroll::-webkit-scrollbar {
@@ -35,63 +39,20 @@
 }
 
 .horizontal-scroll::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
+    background: #f0f0f0; /* Using the lighter background from the second block */
+    border-radius: 10px; /* Keep the larger border-radius if preferred */
 }
 
 .horizontal-scroll::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
+    background: #F5EEAD; /* Using the color from the second block */
+    border-radius: 4px; /* Using the smaller border-radius from the second block */
 }
 
 .horizontal-scroll::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #555; /* Keep the hover state if desired, adjust color as needed */
 }
 
-.font-palanquin {
-    font-family: 'Palanquin', sans-serif;
-}
-.font-palanquin-dark {
-    font-family: 'Palanquin Dark', sans-serif;
-}
-.font-open-sans {
-    font-family: 'Open Sans', sans-serif;
-}
-.font-harmattan {
-    font-family: 'Harmattan', cursive;
-}
-.font-montserrat {
-    font-family: 'Montserrat', sans-serif;
-}
-.font-inter {
-    font-family: 'Inter', sans-serif;
-}
 /* Ensure the main container takes full width and minimum height */
 body {
     font-family: 'Inter', sans-serif; /* Default font */
 }
-
-    
-.font-harmattan { font-family: 'Harmattan', sans-serif; }
-    .font-palanquin { font-family: 'Palanquin', sans-serif; }
-    .font-palanquin-dark { font-family: 'Palanquin Dark', sans-serif; }
-    .font-open-sans { font-family: 'Open Sans', sans-serif; }
-    .font-inter { font-family: 'Inter', sans-serif; }
-    .font-montserrat { font-family: 'Montserrat', sans-serif; }
-
-    /* Custom gradient background to match original precise colors */
-    .custom-gradient-bg {
-      background: linear-gradient(180deg, #FCFCF7 6%, #F5EEAD 100%);
-    }
-
-    /* Ensure smooth horizontal scrolling for categories (if any on this page) */
-    .horizontal-scroll::-webkit-scrollbar {
-        height: 8px;
-    }
-    .horizontal-scroll::-webkit-scrollbar-thumb {
-        background-color: #F5EEAD;
-        border-radius: 4px;
-    }
-    .horizontal-scroll::-webkit-scrollbar-track {
-        background-color: #f0f0f0;
-    }
